@@ -2,12 +2,12 @@ import cv2
 import face_recognition
 
 # Load the main image
-imgmain = face_recognition.load_image_file('D:/sideProject/Proj1_python/148292.jpg')
+imgmain = face_recognition.load_image_file('{Image Path}')
 imgmain = cv2.cvtColor(imgmain, cv2.COLOR_BGR2RGB)
 imgmain_resize = cv2.resize(imgmain, (440, 450))
 
 # Load the test image
-imgTest = face_recognition.load_image_file('D:/sideProject/Proj1_python/0121.jpg')
+imgTest = face_recognition.load_image_file('{Image Path}')
 imgTest = cv2.cvtColor(imgTest, cv2.COLOR_BGR2RGB)
 imgTest_resize = cv2.resize(imgTest, (400, 500))
 
