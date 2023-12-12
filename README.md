@@ -1,7 +1,7 @@
 # Face Recognition
 
 ### Introduction
-This is a project which is able to recognize hand gestures, then translate the gestures into word messages, eventually vary the applications of hand gesture recognition technique.
+
 
 ### Pre-installation
 This project requires installation of the third-party packages shown as below:
